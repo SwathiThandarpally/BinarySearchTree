@@ -26,6 +26,25 @@
             binarySearch1.AddNode(65);
             binarySearch1.AddNode(3);
             binarySearch1.Display();
+            Console.WriteLine("----------------------------------------");
+            //UC_3
+            SearchBinary<int> search = new SearchBinary<int>(56);
+            search.AddNode(30);
+            search.AddNode(70);
+            search.AddNode(22);
+            search.AddNode(40);
+            search.AddNode(11);
+            search.AddNode(63);
+            search.AddNode(67);
+            search.AddNode(16);
+            search.AddNode(60);
+            search.AddNode(95);
+            search.AddNode(65);
+            search.AddNode(3);
+            search.Display();
+            search.Size();
+            bool result = search.Equals(67);
+            Console.WriteLine(result);
 
 
         }
