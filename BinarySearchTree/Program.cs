@@ -43,8 +43,11 @@
             search.AddNode(3);
             search.Display();
             search.Size();
-            bool result = search.Equals(67);
-            Console.WriteLine(result);
+            Console.WriteLine("Displayinng Sorted Value");
+            SearchBinary<int> node = search.FindElement(67, search);
+            Console.WriteLine($"\nElement is : {node.Data}");
+
+            Console.ReadLine();
 
 
         }
